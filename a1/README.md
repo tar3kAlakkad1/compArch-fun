@@ -91,4 +91,7 @@ The carry (either 0 or 1) resulting from the addition is stored in r24.
    
 
 
-NOTE: all rights reserved to Dr. Mike Zastre
+
+
+
+NOTE: README.md uses description from Fr. Mike Zastre's teaching material in CSC 230.
