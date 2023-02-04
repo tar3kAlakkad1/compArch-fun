@@ -20,7 +20,7 @@ The numbers are clearly different, and one measure of this is found by determini
 the number of bit positions in which the two binary numbers differ. Shown below are
 these two numbers again but with the different bits noted in bold:
 
-      __1__10__0__0__11__0
+      _1__10__0__0__11__0
       __0__10__1__0__00__1
       
 That is, if we denote bit 7 as the left-most bit of each number, then bits 7, 4, 2, 1 and
