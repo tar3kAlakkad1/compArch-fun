@@ -60,22 +60,22 @@ Some test cases are provided in the assembly file.
 
 Addition of two packed BCDs numbers. 
 
-A number such as 72<sup>10</sup> may be represented as a eightbit
+A number such as 72<sub>10</sub> may be represented as a eightbit
 two’s complement number: 0b01001000. Another form for representing decimal
 numbers that was once popular is called __binary-coded decimal (BCD)__. For a given
 number, each decimal digit (from 0 to 9) was encoded in a four-bit field. The BCD
-representation of 72~10~ is 0b01110010, i.e., where the left nibble (0111) represents 7
+representation of 72<sub>10</sub> is 0b01110010, i.e., where the left nibble (0111) represents 7
 and the right nibble (0010) represents 2. A larger decimal number would therefore
 require more groups of four bits, that is, four bits per decimal digit.
 
 Put differently, one result of BCD is that the hexadecimal version of the number
 appears identical to the decimal, even though they are in different bases. That is,
-0x72 in a BCD encoding has the same meaning as 72~10~.
+0x72 in a BCD encoding has the same meaning as 72<sub>10</sub>.
 
 Performing arithmetic with BCD numbers is, however, definitely not the same as
 with the ordinary two’s-complement encoding we have examined in class! For
-example, adding together 0x35 (53~10~) and 0x49 (73~10~) as two’s complement
-numbers results in 0x6E (126~10~). However, as BCD, the addition 0x35 and 0x49 is
+example, adding together 0x35 (53<sub>10</sub>) and 0x49 (73<sub>10</sub>) as two’s complement
+numbers results in 0x6E (126<sub>10</sub>). However, as BCD, the addition 0x35 and 0x49 is
 0x84. This also suggest that the largest number which can be represented in a byte
 using BCD is 0x99. 
 
