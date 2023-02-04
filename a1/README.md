@@ -60,7 +60,7 @@ Some test cases are provided in the assembly file.
 
 Addition of two packed BCDs numbers. 
 
-A number such as 72~10~ may be represented as a eightbit
+A number such as 72<sup>10</sup> may be represented as a eightbit
 two’s complement number: 0b01001000. Another form for representing decimal
 numbers that was once popular is called __binary-coded decimal (BCD)__. For a given
 number, each decimal digit (from 0 to 9) was encoded in a four-bit field. The BCD
