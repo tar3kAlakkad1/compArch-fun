@@ -22,6 +22,7 @@ the number of bit positions in which the two binary numbers differ. Shown below 
 these two numbers again but with the different bits noted in bold: 
 
   <b>1</b>10<b>0</b>0<b>110</b>
+  
   <b>0</b>10<b>1</b>0<b>001</b>
       
 That is, if we denote bit 7 as the left-most bit of each number, then bits 7, 4, 2, 1 and
