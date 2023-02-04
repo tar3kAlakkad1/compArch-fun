@@ -42,13 +42,13 @@ Another common task when working with bit sequences is to identify and work
 with contiguous set bits. For example, consider the bit sequence shown below, with
 several of the set bits shown in a bold font:
 
-      010__111__00
+   010<b>111</b>00
       
 We say that the bolded set bits constitute the right-most contiguous set bits. That is,
 bits 4, 3, and 2 are set. If we reset the right-most contiguous set bits of the example
 just given, the result is:
 
-      010__000__00
+   010<b>000</b>00
 
 reset-rightmost.asm completes the task demonstrated above. 
 
